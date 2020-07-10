@@ -1,6 +1,3 @@
-Thanks for downloading this template!
-
-Template Name: MyResume
-Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Portafolio Personal Alberth Paredes
+Ingeniero en Ciencias de la Computación
+ver pagina https://alberthrko.github.io/alberth/
