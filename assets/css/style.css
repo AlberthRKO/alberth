@@ -1276,3 +1276,13 @@ section {
   /*The ease-out 0.5s es el tiempo que pasa hasta que vuelva
  a desplazarse a su posición original*/
 }
+
+#preloader::after {
+  content: 'AP';
+  font-family: 'Kaushan Script', cursive;
+  font-size: 1.4rem;
+  color: #0563BB;
+  position: fixed;
+  top: calc(50% - 17px);
+  left: calc(50% - 17px);
+}
