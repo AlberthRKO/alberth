@@ -1134,6 +1134,19 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+.botoncito {
+  background: #0563bb;
+  border: 0;
+  padding: 10px 35px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+.botoncito:hover {
+  background: #0678e3;
+}
+
 #footer {
   background: #f7f8f9;
   color: #45505b;
@@ -1191,15 +1204,7 @@ section {
   font-size: 13px;
 }
 
-.scrollme:hover,
-.scrollme2:hover,
-.scrollme3:hover,
-.scrollme4:hover,
-.scrollme5:hover,
-.scrollme6:hover,
-.scrollme7:hover,
-.scrollme8:hover,
-.scrollme9:hover {
+.scrollme:hover{
   -webkit-transition: background-position 4s linear 0s !important;
   -moz-transition: background-position 4s linear 0s !important;
   transition: background-position 4s linear 0s !important;
@@ -1208,120 +1213,62 @@ section {
  en desplazarse de principio a fin, por lo que las capturas
  de pantalla más largas se desplazan más rápido*/
 }
-
-.scrollme {
-  display: block;
+.scrollme1 {
   background: url(../img/portafolioProject/clinicapp.jpg) !important;
-  background-position: center top !important;
-  background-repeat: no-repeat !important;
-  background-size: 100% auto !important;
-  position: relative !important;
-  -webkit-transition: background-position 1.5s ease-out 0.5s !important;
-  -moz-transition: background-position 1.5s ease-out 0.5s !important;
-  transition: background-position 1.5s ease-out 0.5s !important;
-  /*The ease-out 0.5s es el tiempo que pasa hasta que vuelva
- a desplazarse a su posición original*/
 }
 
 .scrollme2 {
-  display: block;
   background: url(../img/portafolioProject/fotoX.jpg) !important;
-  background-position: center top !important;
-  background-repeat: no-repeat !important;
-  background-size: 100% auto !important;
-  position: relative !important;
-  -webkit-transition: background-position 1.5s ease-out 0.5s !important;
-  -moz-transition: background-position 1.5s ease-out 0.5s !important;
-  transition: background-position 1.5s ease-out 0.5s !important;
-  /*The ease-out 0.5s es el tiempo que pasa hasta que vuelva
- a desplazarse a su posición original*/
 }
 
 .scrollme3 {
-  display: block;
   background: url(../img/portafolioProject/devopweb.jpg) !important;
-  background-position: center top !important;
-  background-repeat: no-repeat !important;
-  background-size: 100% auto !important;
-  position: relative !important;
-  -webkit-transition: background-position 1.5s ease-out 0.5s !important;
-  -moz-transition: background-position 1.5s ease-out 0.5s !important;
-  transition: background-position 1.5s ease-out 0.5s !important;
-  /*The ease-out 0.5s es el tiempo que pasa hasta que vuelva
- a desplazarse a su posición original*/
 }
 
 .scrollme4 {
-  display: block;
   background: url(../img/portafolioProject/negocio.jpg) !important;
-  background-position: center top !important;
-  background-repeat: no-repeat !important;
-  background-size: 100% auto !important;
-  position: relative !important;
-  -webkit-transition: background-position 1.5s ease-out 0.5s !important;
-  -moz-transition: background-position 1.5s ease-out 0.5s !important;
-  transition: background-position 1.5s ease-out 0.5s !important;
-  /*The ease-out 0.5s es el tiempo que pasa hasta que vuelva
- a desplazarse a su posición original*/
 }
 .scrollme5 {
-  display: block;
   background: url(../img/portafolioProject/marketing.jpg) !important;
-  background-position: center top !important;
-  background-repeat: no-repeat !important;
-  background-size: 100% auto !important;
-  position: relative !important;
-  -webkit-transition: background-position 1.5s ease-out 0.5s !important;
-  -moz-transition: background-position 1.5s ease-out 0.5s !important;
-  transition: background-position 1.5s ease-out 0.5s !important;
-  /*The ease-out 0.5s es el tiempo que pasa hasta que vuelva
- a desplazarse a su posición original*/
 }
 .scrollme6 {
-  display: block;
   background: url(../img/portafolioProject/covid.jpg) !important;
-  background-position: center top !important;
-  background-repeat: no-repeat !important;
-  background-size: 100% auto !important;
-  position: relative !important;
-  -webkit-transition: background-position 1.5s ease-out 0.5s !important;
-  -moz-transition: background-position 1.5s ease-out 0.5s !important;
-  transition: background-position 1.5s ease-out 0.5s !important;
-  /*The ease-out 0.5s es el tiempo que pasa hasta que vuelva
- a desplazarse a su posición original*/
 }
 .scrollme7 {
-  display: block;
   background: url(../img/portafolioProject/PolloSpich.jpg) !important;
-  background-position: center top !important;
-  background-repeat: no-repeat !important;
-  background-size: 100% auto !important;
-  position: relative !important;
-  -webkit-transition: background-position 1.5s ease-out 0.5s !important;
-  -moz-transition: background-position 1.5s ease-out 0.5s !important;
-  transition: background-position 1.5s ease-out 0.5s !important;
-  /*The ease-out 0.5s es el tiempo que pasa hasta que vuelva
- a desplazarse a su posición original*/
 }
 .scrollme8 {
-  display: block;
   background: url(../img/portafolioProject/covidapp.jpg) !important;
-  background-position: center top !important;
-  background-repeat: no-repeat !important;
-  background-size: 100% auto !important;
-  position: relative !important;
-  -webkit-transition: background-position 1.5s ease-out 0.5s !important;
-  -moz-transition: background-position 1.5s ease-out 0.5s !important;
-  transition: background-position 1.5s ease-out 0.5s !important;
-  /*The ease-out 0.5s es el tiempo que pasa hasta que vuelva
- a desplazarse a su posición original*/
 }
 .scrollme9 {
-  display: block;
   background: url(../img/portafolioProject/wordpress.jpg) !important;
+}
+.scrollme10 {
+  background: url(../img/portafolioProject/goldney.png) !important;
+}
+.scrollme11 {
+  background: url(../img/portafolioProject/capys.jpg) !important;
+}
+.scrollme12 {
+  background: url(../img/portafolioProject/covidAdmin.jpg) !important;
+}
+.scrollme13 {
+  background: url(../img/portafolioProject/pichanga.jpg) !important;
+}
+.scrollme14 {
+  background: url(../img/portafolioProject/dashboard.jpg) !important;
+}
+.scrollme15 {
+  background: url(../img/portafolioProject/uber.jpg) !important;
+}
+
+
+.scrollme {
+  display: block;
   background-position: center top !important;
   background-repeat: no-repeat !important;
   background-size: 100% auto !important;
+  box-shadow: 0px -5px 25px 0px rgba(110, 123, 131, 0.30);
   position: relative !important;
   -webkit-transition: background-position 1.5s ease-out 0.5s !important;
   -moz-transition: background-position 1.5s ease-out 0.5s !important;
